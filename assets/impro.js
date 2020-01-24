@@ -33,11 +33,3 @@ rightButton.onclick = () => {
   counterHandle('plus');
   image.src = imagePath[imageCounter];
 };
-
-// if(content.className == "open" ) {
-//   content.className = "";
-//   button.innerHTML = "Show More";
-// } else {
-//   content.className = "open";
-//   button.innerHTML = "Show Less";
-// }
