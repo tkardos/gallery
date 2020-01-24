@@ -1,0 +1,141 @@
+body {
+  background: #eee;
+}
+
+/* .wrapper{
+  background: lightblue;
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+} */
+
+.flex-container {
+  
+  display: flex;
+  background: #fff;
+  /* flex-wrap: wrap;
+  flex-flow: row; */
+  height: 350px;
+  width: 900px;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 100px 50px 300px;
+  box-shadow:  3px 3px 5px 6px #ccc;
+}
+
+/* #blocks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.flex-container > .image {
+  height: 350px;
+  width: 798px;
+  order: 1;
+
+}
+
+.flex-container > .left {
+  padding: 20px;
+  cursor: pointer;
+  order: 0;
+}
+
+.flex-container > .right {
+  transform: rotate(0.5turn);
+  padding: 20px;
+  cursor: pointer;
+  order: 2;
+  
+}
+
+.opa {
+  opacity: 0.5;
+}
+
+.boxes {
+  order: 3
+}
+.foot {
+  display: flex;
+  width: inherit;
+  height: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.thumbnails{
+  display: flex;
+  height: 0px;
+  width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.thumbnails > img{
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+  
+  .thumbnails > img:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ 
+
+
+
+
+/* #centerimg2{
+  position: center;
+  width: 800px;
+  height: 300px;
+  background: #fff;
+  padding: 50px;
+  font-family: calibri;
+  font-size: 18px;
+  color: #444;
+  margin: 20%;
+} */
+
+/*
+
+  max-height: 270px;
+  overflow: hidden;
+
+  /* transitions 
+
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+}
+
+#content.open{
+  max-height: 1000px;
+
+  /* transitions 
+
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+}
+
+  #show-more{
+    background: #1594e5;
+    color: #fff;
+    font-family: calibri;
+    display:block;
+    width: 140px;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+
+  }
+  */
